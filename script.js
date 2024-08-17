@@ -57,7 +57,7 @@ function updateTimerDisplay(timerElement, totalSeconds) {
     const seconds = totalSeconds % 60;
 
     timerElement.querySelector('.time-left').innerText = 
-        `${String(hours).padStart(2, '0')} : ${String(minutes).padStart(2, '0')} : ${String(seconds).padStart(2, '0')}`;
+        `Time left : ${String(hours).padStart(2, '0')} : ${String(minutes).padStart(2, '0')} : ${String(seconds).padStart(2, '0')}`;
 }
 
 function handleTimerEnd(timerElement) {
