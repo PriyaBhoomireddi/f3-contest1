@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #222;
+    color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #eee;
+}
+
+.timer-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.timer-input input {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #444;
+    color: #fff;
+}
+
+.timer-input button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d4d128;
+    color: #222;
+    cursor: pointer;
+}
+
+.timer-input button:hover {
+    background-color: #e5e53a;
+}
+
+#timers-section {
+    margin-top: 20px;
+}
+
+#timers-section h2 {
+    margin-bottom: 10px;
+    color: #aaa;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.timer.finished {
+    background-color: #d4d128;
+    color: #222;
+}
+
+.timer button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d4d128;
+    color: #222;
+    cursor: pointer;
+}
+
+.timer button:hover {
+    background-color: #e5e53a;
+}
+.delete-timer{
+    background-color: grey;
+    
+}
